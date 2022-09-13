@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <form method="post">
+        <p>
+            Nom = <br> 
+            <input type="text" name="nom" />
+        </p> 
+
+        <p>
+            Prenom = <br> 
+            <input type="text" name="prenom" />
+        </p>
+
+        <p>
+            Date de naissance = <br> 
+            <input type="date" id="start" name="trip-start">
+        </p>
+
+        <p>
+            Sexe = <br>
+            <input type="radio" id="homme" name="sexeChoix" value="homme">
+            <label for="">Homme</label><br>
+            <input type="radio" id="femme" name="sexeChoix" value="femme">
+            <label for="">Femme</label><br>
+        </p>
+
+        <p>
+            Pays (France/Italie/Allemagne) = <br>
+            <select name="country" id="country-select">
+                <option value="">--Choisir un pays--</option>
+                <option value="france">France</option>
+                <option value="italie">Italie</option>
+                <option value="allemagne">Allemagne</option>
+            </select>
+        </p>
+
+        <p>
+            Description = <br>
+            <textarea name="description" rows=4 cols=40></textarea>
+        </p>
+
+        <input type="submit" value="Envoyer le formulaire">
+
+
+
+
+        
+     </form>
+
+</body>
+
+</html>
